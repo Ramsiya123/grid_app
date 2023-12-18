@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:grid_app/colorapp/screen1.dart';
+
 import 'package:grid_app/meow.dart';
+import 'package:grid_app/randomblue/firstpage.dart';
 import 'package:grid_app/screen1.dart';
 
 import 'package:grid_app/screen11.dart';
@@ -26,7 +29,9 @@ class MyApp extends StatelessWidget {
       home:
       //SellingApp(),
       //SCREEN_ONE(),
-      Cat(),
+     //Cat(),
+     RANDON(),
+     //ONE(),
     );
   }
 }
